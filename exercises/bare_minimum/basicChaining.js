@@ -10,11 +10,18 @@
 
 var fs = require('fs');
 var Promise = require('bluebird');
+var promiseConstructors = require('./promiseConstructor');
 
 
 
 var fetchProfileAndWriteToFile = function(readFilePath, writeFilePath) {
-  // TODO
+  return new Promise(function(resolve, reject) {
+
+
+
+
+  });
+
 };
 
 // Export these functions so we can test them
